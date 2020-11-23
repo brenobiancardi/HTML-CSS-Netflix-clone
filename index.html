@@ -3,7 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/style.css" />
+
+    <link rel="stylesheet" href="./style/carousel.css" />
     <title>Netflix</title>
   </head>
   <body>
@@ -14,9 +16,71 @@
           <a href="#">Inicio</a>
           <a href="#">Séries</a>
           <a href="#">Filmes</a>
-          <a href="#">Documentario</a>
+          <a href="#">Documentarios</a>
         </nav>
       </div>
     </header>
+    <main>
+      <div class="filme-principal">
+        <div class="container">
+          <h3 class="titulo">House of Cards</h3>
+          <p class="descricao">
+            Nada pode impedir o politico sem escrupulos Frank Underwood de
+            conquistar Washington
+          </p>
+          <div class="botoes">
+            <button role="button" class="botao">
+              <i class="fas fa-play"></i>
+              ASSISTIR AGORA
+            </button>
+            <button role="button" class="botao">
+              <i class="fas fa-info-circle"></i>
+              MAIS INFORMAÇÕES
+            </button>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <div class="carousel-filmes">
+      <div class="slider" id="slider">
+        <div class="item">
+          <img src="img/mini1.jpg" />
+        </div>
+        <div class="item">
+          <img src="img/mini2.jpg" />
+        </div>
+        <div class="item">
+          <img src="img/mini3.jpg" />
+        </div>
+        <div class="item">
+          <img src="img/mini4.jpg" />
+        </div>
+        <div class="item">
+          <img src="img/mini5.jpg" />
+        </div>
+        <div class="item">
+          <img src="img/mini6.jpg" />
+        </div>
+        <div class="item">
+          <img src="img/mini7.jpg" />
+        </div>
+        <div class="item">
+          <img src="img/mini8.jpg" />
+        </div>
+        <div class="item">
+          <img src="img/mini9.jpg" />
+        </div>
+        <div class="item">
+          <img src="img/mini10.jpg" />
+        </div>
+      </div>
+    </div>
+    <script src="./js/carousel.js"></script>
+
+    <script
+      src="https://kit.fontawesome.com/8895ee1bda.js"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
